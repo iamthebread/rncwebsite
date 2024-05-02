@@ -1,0 +1,50 @@
+body {
+    background-color: #2B2A33;
+}
+
+div.navigation {
+    background-color: #1e1d24;
+    width: 101%;
+    margin-left: -0.4%;
+    margin-top: -0.4%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 55px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+button.navigation {
+    width: 120px;
+    margin-left: 0px;
+    background-color: #1e1d24;
+    border-style: none;
+    color: white;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    height: 104px;
+    float: right;
+    margin-right: 30px;
+    margin-top: -0.1px;
+}
+
+button.navigation:hover {
+    background-color: #1e1d24;
+    border-style: none;
+    color: white;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    height: 104px;
+    margin-top: -0.7px;
+}
