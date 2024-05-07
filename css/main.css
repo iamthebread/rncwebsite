@@ -15,8 +15,15 @@ h1 {
     color: white;
     text-align: center;
     font-size: 55px;
-    font-family: "Ubuntu", sans-serif;
-    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+p1 {
+    color: white;
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
     font-style: normal;
 }
 
@@ -26,7 +33,7 @@ button.navigation {
     background-color: #1e1d24;
     border-style: none;
     color: white;
-    font-family: "Ubuntu", sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 20px;
@@ -42,9 +49,15 @@ button.navigation:hover {
     color: white;
     text-decoration: underline;
     text-decoration-style: solid;
-    font-family: "Ubuntu", sans-serif;
+    text-decoration-thickness: 2px;
+    font-family: "Inter", sans-serif;
     font-weight: 400;
     font-style: normal;
     height: 104px;
     margin-top: -0.7px;
+}
+
+div.paragraph {
+    width: 70%;
+    margin-left: 15%;
 }
