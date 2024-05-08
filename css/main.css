@@ -1,9 +1,9 @@
 body {
-    background-color: #2B2A33;
+    background-image: url('../images/webbackground.png');
 }
 
 div.navigation {
-    background-color: #1e1d24;
+    background-color: #ffffff;
     width: 101%;
     margin-left: -0.4%;
     margin-top: -0.4%;
@@ -15,8 +15,8 @@ h1 {
     color: white;
     text-align: center;
     font-size: 55px;
-    font-family: "Inter", sans-serif;
-    font-weight: 700;
+    font-family: "Encode Sans Condensed", sans-serif;
+    font-weight: 600;
     font-style: normal;
 }
 
@@ -25,36 +25,39 @@ p1 {
     font-size: 20px;
     font-family: "Inter", sans-serif;
     font-style: normal;
+    font-weight: 500;
 }
 
 button.navigation {
-    width: 120px;
+    width: 200px;
     margin-left: 0px;
-    background-color: #1e1d24;
+    background-color: #ffffff;
     border-style: none;
-    color: white;
-    font-family: "Inter", sans-serif;
-    font-weight: 400;
+    color: black;
+    font-family: "Encode Sans Condensed", sans-serif;
+    font-weight: 500;
     font-style: normal;
-    font-size: 20px;
+    font-size: 30px;
     height: 104px;
     float: right;
     margin-right: 30px;
-    margin-top: -0.1px;
+    margin-top: 5px;
+    text-align: center;
 }
 
 button.navigation:hover {
-    background-color: #1e1d24;
+    background-color: #ffffff;
     border-style: none;
-    color: white;
+    color: black;
     text-decoration: underline;
     text-decoration-style: solid;
     text-decoration-thickness: 2px;
-    font-family: "Inter", sans-serif;
-    font-weight: 400;
+    font-family: "Encode Sans Condensed", sans-serif;
+    font-weight: 700;
     font-style: normal;
     height: 104px;
-    margin-top: -0.7px;
+    margin-top: 5px;
+    
 }
 
 div.paragraph {
