@@ -1,9 +1,10 @@
 body {
     background-image: url('../images/webbackground.png');
+    background-attachment: fixed;
 }
 
 div.navigation {
-    background-color: #ffffff;
+    background-color: whitesmoke;
     width: 101%;
     margin-left: -0.4%;
     margin-top: -0.4%;
@@ -31,7 +32,7 @@ p1 {
 button.navigation {
     width: 200px;
     margin-left: 0px;
-    background-color: #ffffff;
+    background-color: whitesmoke;
     border-style: none;
     color: black;
     font-family: "Encode Sans Condensed", sans-serif;
@@ -46,7 +47,7 @@ button.navigation {
 }
 
 button.navigation:hover {
-    background-color: #ffffff;
+    background-color: whitesmoke;
     border-style: none;
     color: black;
     text-decoration: underline;
@@ -63,4 +64,28 @@ button.navigation:hover {
 div.paragraph {
     width: 70%;
     margin-left: 15%;
+}
+
+h2 {
+    font-family: "Encode Sans Condensed", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 40px;
+    text-decoration: underline;
+    text-decoration-thickness: 4px;
+}
+
+h3 {
+    font-family: "Encode Sans Condensed", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 28px;
+    text-decoration-thickness: 4px;
+}
+
+div.contact {
+    width: 70%;
+    margin-left: 15%;
+    display: flex;
+    justify-content: space-around;
 }
