@@ -67,6 +67,7 @@ div.paragraph {
 }
 
 h2 {
+    color: #ffffff;
     font-family: "Encode Sans Condensed", sans-serif;
     font-weight: 600;
     font-style: normal;
@@ -76,6 +77,7 @@ h2 {
 }
 
 h3 {
+    color: #ffffff;
     font-family: "Encode Sans Condensed", sans-serif;
     font-weight: 600;
     font-style: normal;
